@@ -2,6 +2,7 @@
 a distribution spider demo
 
 Requirements:
+
 python:2.7
   
 scrapy:1.4.0  
@@ -13,6 +14,8 @@ fake-useragent:https://github.com/hellysmile/fake-useragent
 mysqlclient:  
 
 Redis >= 2.8  
+
+
 
 
 how to deploy the scrapy-reids project on a new mac 
@@ -35,6 +38,7 @@ how to deploy the scrapy-reids project on a new mac
   
 
 possible problem：
+
 1、 mysqlclient error: mysql_config not find
    
     solution: open the terminal，print the follows
