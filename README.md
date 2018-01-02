@@ -20,8 +20,8 @@ Redis >= 2.8
 
 how to deploy the scrapy-reids project on a new mac 
 
-1、create virtual env:
-  sudo easy_install pip
+1、create virtual env:\n
+  sudo easy_install pip 
   sudo pip install virtualenv
   virtualenv -p /usr/bin/python2.7 python2
 
