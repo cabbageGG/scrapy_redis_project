@@ -20,14 +20,14 @@ Redis >= 2.8
 
 how to deploy the scrapy-reids project on a new mac 
 
-1、create virtual env:\n
-  sudo easy_install pip 
-  sudo pip install virtualenv
-  virtualenv -p /usr/bin/python2.7 python2
+1、create virtual env:
+  sudo easy_install pip; 
+  sudo pip install virtualenv; 
+  virtualenv -p /usr/bin/python2.7 python2;
 
-2、enter the virtualenv and install the packages required
-   source python2/bin/activate
-   sudo pip install -i https://pypi.douban.com/simple/ scrapy scrapy-redis mysqlclient fake-useragent 
+2、enter the virtualenv and install the packages required:
+   source python2/bin/activate; 
+   sudo pip install -i https://pypi.douban.com/simple/ scrapy scrapy-redis mysqlclient fake-useragent;  
 
 3、copy project
    ScrapyRedisTest
